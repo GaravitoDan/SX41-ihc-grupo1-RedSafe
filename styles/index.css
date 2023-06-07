@@ -14,8 +14,6 @@
     --invalid-color: #dc143c;
     --padding-section: rem 0;
     */
-    
-
     --max-width-container: 1000px;
     --border-radius: 0.5rem;
     --transitions: all 0.15s;
@@ -23,7 +21,4 @@
     --padding-container: 4px 0;
     --button-color-active: #AA1803;
   }
-body{
-    font-family: var(--main);
-    padding: var(--padding);
-}
+

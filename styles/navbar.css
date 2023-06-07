@@ -1,4 +1,8 @@
-.header {
+  body{
+    font-family: var(--main);
+    padding: var(--padding);
+  }
+  .header {
     position: fixed;
     z-index: 100;
     top: 0;
