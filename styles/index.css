@@ -1,4 +1,5 @@
 @import url(./navbar.css);
+@import url(./tittle.css);
 :root {
     scroll-behavior: smooth;
     /*
@@ -19,6 +20,8 @@
     --transitions: all 0.15s;
     --main:'Nunito', sans-serif;
     --padding-container: 4px 0;
+    --button-color: #583B26;
     --button-color-active: #AA1803;
+    --shadows: 0px 2px 4px rgba(0, 0, 0, 0.25);
   }
 
