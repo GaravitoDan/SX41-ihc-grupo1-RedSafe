@@ -1,9 +1,11 @@
 /* Estilos para el footer */
 footer {
-    background-color: #8E4528;
+    background-color: #BD613C;
     color: black;
     text-align: center;
     padding: 20px;
+    flex-shrink: 0;
+
 }
 
 /* Estilo para el texto grande */
