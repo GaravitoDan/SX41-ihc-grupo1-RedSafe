@@ -1,0 +1,41 @@
+/* Estilos para el footer */
+footer {
+    background-color: #F1BAA1;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el texto grande */
+.footer-large {
+    font-size: 24px;
+}
+
+/* Estilo para el texto pequeño */
+.footer-small {
+    font-size: 14px;
+}
+
+/* Estilos para los enlaces */
+.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos para los logos de las redes sociales */
+.footer-links img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+/* Estilos para los nombres de las redes sociales */
+.footer-links span {
+    margin-left: 5px;
+}
