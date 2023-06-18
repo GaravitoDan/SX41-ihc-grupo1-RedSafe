@@ -2,67 +2,138 @@ body{
     font-family: var(--main);
     padding: var(--padding);
   }
-.app__tittle-imagen__container{
-    position: fixed;
-    z-index: 100;
-    top: 14%;
-    left: 26%;
-    width: fit-content;
-}
 
-.app__tittleW-imagen{
-    display: flex;
+#app__tittle-imagen__container{
+  display: flex;
+  justify-content: center;
+  padding-top: 7%;
+}
+.app__tittle-tittleAndP{
+  font-size: 25px;
+  width: 20%;
+  padding-left: 3%;
 }
 .app__tittle{
-    padding-left: 65px;
-    width: 30%;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 70px;
-    margin-bottom: 10px;
-    text-shadow: var(--shadows)
+  font-weight: 800;
+  padding-bottom: 5%;
+  mix-blend-mode: normal;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .app__descripcion{
-    position: absolute;
-    bottom: 10%;
-    left: 42.9%;
-    width: 470px;
-    height: 176px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 35px;
-    color: #000000;
-    text-shadow: var(--shadows)
+  padding-left: 6%;
+  mix-blend-mode: normal;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
-.app__main-buttons-playstore-imagen {
-    position: relative;
-    color: #ffffff;
-    font-weight: 600;
-    text-decoration: none;
-    transition: var(--transitions);
-    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-
-  }
-  .app__main-buttons-playstore {
-    background-color: var(--button-color);
-    padding: 10px 25px;
+.app__main-buttons-playstore{
+  padding-left: 2%;
+}
+.svg-playstore{
+  width: 40%;
+  height: 12%;
+  background-color: #BD613C;
+  border-radius: 30%;
+  padding: 10px 10px;
     border-radius: 30px;
     font-weight: 600;
     box-shadow: 0 0 3px;
-    width: 190px;
-    height: 60px;
-    position: absolute;
-  }
-  .app__main-buttons-playstore {
-    display: flex;
-  }
+}
+.app__main-buttons-ios{
+  padding-left: 7%;
+}
+.svg-ios{
+  width: 40%;
+  height: 12%;
+  background: transparent;
+  background-color: #BD613C;
+  border-radius: 30%;
+  padding: 5px 5px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 0 0 3px;
+}
+#cartas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+.card-img-top{
+  width: 60%;
+  display: flex;
+  margin: auto;
+}
+.card-body{
+  text-align: center;
+  padding: 5%;
+}
+.card-text{
+  font-size: 18px;
+  font-weight: 800;
+  mix-blend-mode: normal;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
 
-  #cartas{
-    position: relative;
-    display: flex;
-    left: 33%;
-    padding-top: 27%;
-    width: 29%;
-  }
+#planes{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.planes_tittle{
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 5%;
+  mix-blend-mode: normal;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+#planes-imagenes{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.planes-1{
+  padding-right: 1.5%;
+}
+.planes-2{
+  padding-left: 1.5%;
+}
+
+#barra_descarga{
+  padding-top: 1%;
+  background-color: #583B26;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2;
+  text-align: center;
+}
+
+.div_barra_descarga{
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+
+.barra_descarga_tittle{
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  text-shadow: 1px 2px 1px rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+.barra_descarga_svg{
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.svg_barra1{
+  width: 100px;
+  height: 100px;
+}
+.svg_barra2{
+  width: 100px;
+  height: 100px;
+}
