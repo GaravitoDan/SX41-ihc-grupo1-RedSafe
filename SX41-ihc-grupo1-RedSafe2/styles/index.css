@@ -1,0 +1,29 @@
+@import url(./navbar.css);
+@import url(./tittle.css);
+:root {
+    scroll-behavior: smooth;
+    /*
+    --primary-theme-color: #20232a;
+    --secondary-theme-color: #282c34;
+    --text-color: #fff;
+    --shadow1: #8888;
+    --shadow2: #21242c80;
+    --button-color: #61dafb;
+    --button-text-color: #000;
+    --primary-highlight-color: #61dafb;
+    --secondary-highlight-color: #ffd700;
+    --invalid-color: #dc143c;
+    --padding-section: rem 0;
+    */
+    --max-width-container: 1000px;
+    --border-radius: 0.5rem;
+    --transitions: all 0.15s;
+    --main:'Nunito', sans-serif;
+    --padding-container: 4px 0;
+    --button-color: #583B26;
+    --button-color-active: #AA1803;
+    --shadows: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+.card{
+display: flex;
+}
