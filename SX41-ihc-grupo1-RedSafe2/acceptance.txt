@@ -1,0 +1,90 @@
+1.
+Feature: Cambio de idioma
+Como usuario quiero que la aplicación se pueda traducir a distintos idiomas para poder comprenderla mejor.
+
+Scenario: Usuario quiere cambiar el idioma de la aplicación.
+Given: un "usuario" que se ha registrado en la plataforma.
+When: seleccione la opción de "Idioma" y elige su lenguaje.
+Then: la "app" se traducirá al idioma seleccionado.
+
+2.
+Feature: Ingreso en la plataforma
+Como Usuario quiero ingresar en la plataforma a traves de un usuario y contraseña.
+
+Scenario: Usuario nuevo ingresa a la plataforma
+Given: Un usuario que se ha registrado en la plataforma
+When: empieza a ingresar sus datos
+Then: la plataforma le llevara a la pagina principal
+
+3.
+Feature: Convenios con clinicas
+Como gerente de la empresa quiero que la aplicación sea validada y reconocida por las clinicas a las cuales brindo un convenio para conseguir mas renombre de la app.
+
+Scenario: Los gerentes desean alcanzar una mayor confianza con sus clientes
+Given: una clinica se da cuenta de la eficacia de nuestra app.
+When: nos contacta para hablar de nuestra app.
+Then: la clinica oficializará el uso con nuestra app.
+
+4.
+Feature: Validar datos
+Como usuario nuevo quiero saber si la información que me brinda la app es real para seguir confiando en su ayuda.
+
+Scenario: Un usuario quiere verificar los datos oficiales en cualquier momento.
+Given: un "usuario" que se ha registrado en la plataforma.
+When: verifica que los "datos" son oficiales.
+Then: seguirá haciendo uso de la "app".
+
+5.
+Feature: Campañas publicitarias
+Como propietario quiero hacer anuncios de mi plataforma en distintas redes sociales para conseguir mas usuarios
+
+Scenario: un usuario entre a un red social
+Given: Un usuario que se ha registrado en la plataforma
+When: empieza a navegar en una red social
+Then: observara el anuncio y le interesará entrar a la plataforma
+
+6.
+Feature: Fácil manejo
+Como Usuario  deseo que sea de fácil uso el app para que no se me complique su manejo.
+
+Scenario: Un Usuario nuevo quiere usar la app.
+Given: un "usuario" que se ha registrado en la plataforma.
+When: empieza a interactuar con la "app".
+Then: la "app" se le hará muy fácil de manejar.
+
+7.
+Feature: Semanas de prueba
+Como Propietario quiero aplicar una semana de prueba del servicio premium para conseguir mas usuarios inversores.
+
+Scenario: El Propietario desea captar mas clientes 
+Given: un usuario que se ha registrado en la plataforma
+When: un usuario accede a la semana de prueba
+Then: un usuario que se ha registrado en la plataforma decide continuar con el plan premiun
+
+8.
+Feature: Cancelación de servicio médico
+Como usuario quiero cancelar un servicio médico programado a través de la aplicación RedSafe.
+
+Scenario: Usuario quiere cancelar un servicio médico programado.
+Given: Acceder a la lista de servicios médicos.
+When: Seleccionar un servicio médico programado de la lista.
+Then: Comprobar que el servicio médico cancelado ya no aparece en la lista de servicios programados.
+
+9.
+Feature: Calificación y retroalimentación del médico
+Como usuario quiero calificar y proporcionar retroalimentación sobre la experiencia con un médico después de recibir el servicio.
+
+Scenario: Usuario quiere calificar y proporcionar retroalimentación a  un médico.
+Given: Usuario accede a la lista de servicios médicos anteriores.
+When: sSeleccionar un servicio médico previo de la lista.
+Then: Califica y Proporciona comentarios sobre el medico.
+
+10.
+Feature: Integración con el calendario
+Como usuario quiero integrar correctamente con el calendario del usuario para programar servicios médicos.
+
+Scenario: Usuario quiere integrar correctamente con el calendario un servicio médico programado
+Given: Selecciona la opción de programar un servicio médico
+When: Seleccionar la opción de agregar al calendario.
+Then: Agrego correctamente la cita en el calendario.
+
